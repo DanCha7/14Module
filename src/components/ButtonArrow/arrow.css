@@ -1,0 +1,19 @@
+.button__stand__purple {
+  border-radius: 100px;
+  background-color: #4a2ced;
+  box-shadow: 4px 4px 17.4px 0px #ffffff inset;
+  padding: 20px 50px;
+  background-size: 200% auto;
+  transition: 0.4s;
+}
+
+.button__stand__purple:hover {
+  transition: 0.4s;
+  background-color: red;
+}
+
+@media (max-width: 1440px) {
+  .button__stand__purple {
+    padding: 10px 30px;
+  }
+}

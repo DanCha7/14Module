@@ -1,0 +1,74 @@
+.first__segment__footer {
+  background: url("src/assets/images/AbstractFirst.png") no-repeat left,
+    url("src/assets/images/Abstract Design (2).png") no-repeat right;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.title__left__block {
+  font-size: 20px;
+  color: #797c86;
+  padding: 80px 0px;
+}
+
+.block__size {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.rights__footer {
+  border-top: 1px solid var(--border-color);
+}
+
+.rights__sum {
+  display: flex;
+  justify-content: space-between;
+  color: var(--lgj-grey);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  align-items: center;
+}
+
+.left__block__footer {
+  width: 100%;
+  padding: 20px;
+  border-right: 1px solid var(--border-color);
+}
+
+.right__block__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list__item__footer {
+  font-size: 18px;
+  color: #f2f2f3;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.name__list__footer {
+  font-size: 18px;
+  color: #797c86;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1365px) {
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .rights__sum {
+    flex-direction: column;
+  }
+}

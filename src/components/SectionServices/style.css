@@ -1,0 +1,100 @@
+.block__on__services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(55, 55, 55);
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+}
+
+.sec__three__item {
+  margin-bottom: 150px;
+}
+
+.title__name {
+  font-size: 20px;
+  color: #797c86;
+  line-height: 27.32px;
+  font-weight: 600;
+}
+
+.name__my__photo {
+  font-size: 58px;
+  color: #ffffff;
+  line-height: 79.23px;
+  font-weight: 600;
+}
+
+.right__segment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.event__sec_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event__block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.event__title {
+  color: #797c86;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.text__title {
+  max-width: 680px;
+  color: #797c86;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.hightlights__title {
+  color: #cacace;
+  margin-bottom: 20px;
+}
+
+.list__services {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  font-size: 16px;
+  color: #afb0b6;
+}
+
+.sing__song__concert__img {
+  width: 773px;
+}
+
+@media (max-width: 1600px) {
+  .event__sec_item {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .block__on__services {
+    flex-direction: column;
+  }
+  .sing__song__concert__img {
+    width: 600px;
+  }
+}

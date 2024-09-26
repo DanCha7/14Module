@@ -1,0 +1,36 @@
+.block__on__works {
+  display: flex;
+  justify-content: space-between;
+}
+
+.see__block__works {
+  display: flex;
+  gap: 30px;
+}
+
+.title__name__works {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.title__portfolio {
+  color: #797c86;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+}
+
+.work__block {
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.explore__work {
+  margin-bottom: 140px;
+}
+
+@media (max-width: 1440px) {
+  .block__on__works {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,77 @@
+.tittle__stun__fr {
+  font-size: 22px;
+  line-height: 30.65px;
+  font-weight: 500;
+  color: #62646c;
+}
+
+.dam__braun {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 109.28px;
+}
+
+.section__two__test {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 60px;
+}
+
+.section__two__test {
+  background-image: url("./src/assets/images/arnam.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flex__work__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tittle__lets__work {
+  font-weight: 600;
+  font-size: 58px;
+}
+
+.Damien__Banner__images {
+  margin-bottom: 140px;
+}
+
+/* banner__photography */
+
+.banner__photography {
+  padding: 40px;
+  background-image: url("/src/assets/images/PHOTOGRAPHY.png");
+  background-position: center;
+}
+
+.photo__banner {
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .tittle__stun__fr {
+    font-size: 20px;
+    font-weight: 500;
+    color: #62646c;
+  }
+
+  .dam__braun {
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .tittle__lets__work {
+    font-weight: 600;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .section__two__test {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+}

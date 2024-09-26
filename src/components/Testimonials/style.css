@@ -1,0 +1,33 @@
+.testimonials {
+  margin-bottom: 30px;
+}
+.testi__name {
+  color: #797c86;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+}
+
+.title__testimonials {
+  font-size: 58px;
+  font-weight: 600;
+}
+
+.under__block {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.total__title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #62646c;
+}
+
+.sum__num__review__title {
+  font-size: 28px;
+  font-weight: 500;
+}

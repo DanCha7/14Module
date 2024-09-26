@@ -1,0 +1,91 @@
+.about__damen {
+  margin-bottom: 110px;
+}
+
+.damen__looks__img {
+  width: 783px;
+}
+
+.ab__title {
+  color: #797c86;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+}
+
+.iam__know__more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 50px;
+}
+
+.title__iam {
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 79.23px;
+}
+
+.intro__sec__it {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.first__block__title {
+  border: 1px solid var(--border-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 40px;
+}
+
+.second__block__title {
+  padding: 40px;
+  border: 1px solid var(--border-color);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.star__title__block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #cacace;
+  margin-bottom: 20px;
+}
+
+.description__title__block {
+  max-width: 703px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #afb0b6;
+}
+
+.flex__block {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+
+.under__block__off {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons__block__damien {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1600px) {
+  .damen__looks__img {
+    width: 550px;
+  }
+
+  .intro__sec__it {
+    flex-direction: column;
+  }
+}

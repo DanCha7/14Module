@@ -1,0 +1,11 @@
+:root {
+  --red: red;
+  --lgj-grey: #797c86;
+  --border-color: #252525;
+  font-family: "Manrope";
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/src/assets/fonts/Manrope-VariableFont_wght.ttf");
+}
